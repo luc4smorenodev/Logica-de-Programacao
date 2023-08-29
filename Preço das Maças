@@ -1,0 +1,36 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/08/2023
+Var
+// Seção de Declarações das variáveis
+
+macas: inteiro
+resultado: real
+resultadodois: real
+valorvariavel: real
+Inicio
+
+
+
+escreval("Digite Quantas Maças você quer comprar: ")
+leia(macas)
+
+se macas >= 12 entao
+resultado <- macas * 1.00
+escreval("Você vai pagar: ", resultado)
+
+fimse
+
+se macas < 12 entao
+resultadodois <- macas * 1.30
+escreval( "Você vai pagar: ", resultadodois)
+
+fimse
+
+
+
+
+Fimalgoritmo
