@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/08/2023
+Var
+// Seção de Declarações das variáveis 
+a: inteiro
+b: inteiro
+c: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite um Numero A: ")
+leia(a)
+
+escreval("Digite um Numero B: ")
+leia(b)
+
+escreval("Digite um Numero C: ")
+leia(c)
+
+se a + b > C entao
+escreval("Soma de A+B maior que C")
+senao
+escreval("Soma de A+B Menor que C")
+
+fimse
+
+
+Fimalgoritmo
