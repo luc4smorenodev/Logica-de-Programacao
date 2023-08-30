@@ -1,0 +1,47 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/08/2023
+Var
+// Seção de Declarações das variáveis 
+nome: caracter
+estadocivil: caracter
+sexo: caracter
+casada: caracter
+anoscasamento: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+casada <- "casada"
+
+escreval("Digite o Seu Nome: " )
+leia(nome)
+
+escreval("Digite seu Estado Civil: ")
+leia(estadocivil)
+
+escreval("Digite Seu Sexo: ")
+leia(sexo)
+
+se estadocivil = casada entao
+escreval("Digite os Anos que está casada: ")
+leia(anoscasamento)
+
+senao escreval("Continue o Código")
+
+
+fimse
+
+limpatela
+
+escreval("O nome do usuário é: ", nome)
+escreval("O estado civil do usuário é:", estadocivil)
+escreval("O Sexo do usuário é: " , sexo)
+
+
+
+
+Fimalgoritmo
