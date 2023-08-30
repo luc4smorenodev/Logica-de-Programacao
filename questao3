@@ -1,0 +1,45 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/08/2023
+Var
+// Seção de Declarações das variáveis 
+a: inteiro
+b: inteiro
+resultado: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite o primeiro valor: ")
+leia(a)
+
+escreval("Digite o Segundo Valor: ")
+leia(b)
+
+limpatela
+
+se a = b entao
+escreval(a + b)
+
+resultado <- a + b
+
+senao
+
+escreval(a * b)
+
+resultado <- a * b
+
+fimse
+
+limpatela
+
+escreval("O Resultado é: ", resultado)
+
+
+
+
+
+Fimalgoritmo
