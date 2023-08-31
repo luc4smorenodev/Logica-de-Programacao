@@ -1,0 +1,48 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis
+cor: caracter
+corvermelho: caracter
+corazul: caracter
+coramarelo: caracter
+corverde: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+corverde <- "verde"
+corazul <- "azul"
+coramarelo <- "amarelo"
+corvermelho <- "vermelho"
+
+escreval("Digite sua cor: ")
+leia(cor)
+
+se cor = corverde entao
+escreval("Valor é 10 reais")
+
+fimse
+
+se cor = corazul entao
+escreval("Valor é 20 reais")
+
+fimse
+
+se cor = coramarelo entao
+escreval("Valor é 30 reais")
+
+fimse
+
+se cor = corvermelho entao
+escreval("Valor é 40 reais")
+
+fimse
+
+
+
+
+Fimalgoritmo
