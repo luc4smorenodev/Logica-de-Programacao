@@ -1,0 +1,75 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis 
+nomeproduto: caracter
+quantidade: inteiro
+precounitario: real
+total: real
+desconto: real
+totalfinal: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite o Nome do Produto: ")
+
+limpatela
+
+escreval("Digite a Quantidade: ")
+leia(quantidade)
+
+limpatela
+
+escreval("Digite O Preço Unitário: ")
+leia(precounitario)
+
+limpatela
+
+total <- quantidade * precounitario
+
+escreval(total)
+
+limpatela
+limpatela
+
+se quantidade <= 5 entao
+desconto <- total * 0.2
+
+totalfinal <- total - desconto
+
+escreval("O valor pra pagar é: " ,totalfinal , "Reais")
+limpatela
+
+fimse
+
+se quantidade > 5 entao
+desconto <- total * 0.3
+
+totalfinal <- total - desconto
+
+escreval("O valor pra pagar é: ", totalfinal, "Reais" )
+limpatela
+fimse
+
+se quantidade <= 10 entao
+desconto <- total * 0.3
+
+totalfinal <- total - desconto
+
+escreval("O valor pra pagar é: " , totalfinal , "Reais")
+
+fimse
+
+se quantidade > 10 entao
+desconto <- total * 0.5
+
+totalfinal <- total - desconto
+
+escreval("O valor pra pagar é: ", totalfinal , "Reais")
+
+fimse
+
+Fimalgoritmo
