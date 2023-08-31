@@ -1,0 +1,70 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis 
+valorum: inteiro
+valordois: inteiro
+operacao: caracter
+soma: caracter
+subtracao: caracter
+divisao: caracter
+multiplicacao: caracter
+resultado: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ soma <- "+"
+ subtracao <- "-"
+ divisao <- "/"
+ multiplicacao <- "*"
+
+
+
+escreval("Digite Primeiro Valor: ")
+leia(valorum)
+
+escreval("Digite Segundo Valor: ")
+leia(valordois)
+
+Escreval("Digite Qual A operação Desejada: ")
+leia(operacao)
+
+escreval(" Soma = +")
+escreval(" Subtração = - ")
+escreval("Divisão = / ")
+escreval("Multiplicação = * ")
+limpatela
+
+
+
+se operacao = soma entao
+resultado <- valorum + valordois
+escreval(resultado)
+
+fimse
+
+se operacao = subtracao entao
+resultado <- valorum - valordois
+escreval(resultado)
+
+fimse
+
+se operacao = multiplicacao entao
+resultado <- valorum * valordois
+escreval(resultado)
+
+fimse
+
+se operacao = divisao entao
+resultado <- valorum / valordois
+escreval(resultado)
+
+fimse
+
+
+
+Fimalgoritmo
