@@ -1,0 +1,44 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis 
+kgdomorango: real
+desconto: real
+valorpago: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+
+Escreval("Digite Quantos Kg Você quer de morango: ")
+leia(kgdomorango)
+
+se kgdomorango > 5 entao
+kgdomorango <- kgdomorango * 2.20
+escreval(kgdomorango)
+
+fimse
+
+se kgdomorango <= 5 entao
+kgdomorango <- kgdomorango * 2.50
+escreval(kgdomorango)
+
+fimse
+
+desconto <- kgdomorango * 0.1
+ 
+se kgdomorango > 25.00 entao
+desconto <- kgdomorango *0.1
+
+escreval("O desconto é de:", desconto)
+
+valorpago <- kgdomorango - desconto
+
+escreval("Valor a ser pago é: ", valorpago)
+
+fimse
+
+fimalgoritmo
