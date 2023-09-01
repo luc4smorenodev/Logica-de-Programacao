@@ -1,0 +1,77 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis 
+kgMacas:real
+kgMorangos:real
+resultadoMacas:Real
+resultadoMorango:real
+Desconto: real
+valortotal: real
+valoreal: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreva("Quantos kg de morango você comprou: ")
+leia(kgMorangos)
+
+escreva ("Quantos kg de maçãs você comprou?: ")
+leia(kgMacas)
+
+
+ // CONDIÇÃO MORANGO
+
+se ( kgMorangos <= 5 )entao
+   resultadoMorango <- kgMorangos * 2.50
+escreval("Valor do Morango em reais: ",   resultadoMorango)
+   
+senao( kgMorangos > 5 )entao
+   resultadoMorango <- kgMorangos * 2.20
+escreval("Valor do Morango em reais: ",  resultadoMorango  )
+
+fimse
+ // CONDIÇÃO MAÇAS
+
+
+se ( kgMacas <= 5 )entao
+   resultadoMacas <- kgMacas * 1.80
+escreval("Valor da Maçã em reais: ", resultadoMacas)
+
+senao( kgMacas > 5 )entao
+   resultadoMacas <- kgMacas * 1.50
+escreval("Valor do Maçã em reais: ",  resultadoMacas)
+
+fimse
+
+
+// CONDIÇÃO DESCONTO
+
+se ( kgMacas + kgMorangos > 8)  ou (resultadoMacas +  resultadoMorango > 25)  entao
+   desconto <- (kgMacas + kgMorangos) * 0.10
+   desconto <- (resultadoMacas +  resultadoMorango) * 0.10
+   
+escreval (" desconto" , desconto)
+senao
+     escreva ("Sem desconto",valortotal)
+
+fimse
+
+valoreal
+
+
+
+
+
+
+   
+
+   
+
+
+Fimalgoritmo
